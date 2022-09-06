@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a3bcdce26e.js" crossorigin="anonymous"></script>
+    <title>website</title>
+</head>
+
+
+
+
+
+<style>
+    /* first will create the container of the box model */
+    *{
+        box-sizing: border-box;
+
+    }
+    body{
+          background : url(p2.jpg) ;
+          background-size: cover;
+          
+          
+          
+       }
+
+    .container{
+     box-shadow:0 1px    rgb(214, 183, 183);
+    border-radius: 0px;
+    
+    width: 400px;
+    height: 400px;
+    margin-top: 10%;
+    margin-left: 33%;
+         
+    }
+    p{
+    margin-left: 40%;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+    }
+    .usern input{
+        width: 250px;
+        height: 30px;
+        margin-left: 8px;
+        padding: 0;
+        background-color: transparent;
+        color: white;
+        
+        
+    }
+    .possw input{
+        width: 250px;
+        height: 30px;
+        margin-left: 6px;
+        margin-top: 20px;
+        background-color: transparent;
+        color: white;
+        
+    }
+
+    i{
+        margin-left:50px;
+        padding: 0;
+        
+    }
+    .btn{
+        width: 200px;
+        height: 30px;
+        border-radius: 4px;
+        margin-top: 50px;
+        margin-left: 100px;
+        background-color: orange;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color:white;
+    }
+    .sup{width: 200px;
+        height: 30px;
+        border-radius: 4px;
+        margin-top: 50px;
+        margin-left: 100px;
+        background-color: orange;
+        cursor: pointer;
+    }
+    .sup:hover{
+        background-color: white;
+        transition: all;
+
+    }
+    h5{
+        margin-left: 10px;
+        color:white;
+    }
+    i{
+        color: white;
+    }
+    @media  only screen and (max-width:650px){
+       .container {
+
+            flex-direction: column;
+        }
+    }
+
+</style>
+<body>
+    <div   class="container">
+        <p   >LOG IN</p>
+        <div class="usern">
+            <i class="fas fa-user"style="font-size: 20px;"margin-left:10px     ></i>
+            <input type="email" name="us" id="un"  placeholder="ENTER THE YOUR USERNAME"     >
+
+        </div>
+        <div class="possw">
+            <i class="fas fa-key"style="font-size: 20px;" margin-left:10px></i>
+            <input type="email" name="em" id="il" placeholder="ENTER THE POSSWORD">
+            <button class="btn">Continue</button>
+        <h5>  ____________________New To GAMESPACE?__________________</h5>
+        <button class="sup">SIGN UP</button>
+
+    </div>
+    
+</body>
+</html>
